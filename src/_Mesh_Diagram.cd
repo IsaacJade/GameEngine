@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Model::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAgAAAAABAAAAABAAAAAAAAEQAAAAAhgQAAABAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="p_mesh" />
+      <Field Name="p_sphere" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mesh">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Mesh::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mesh.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAIAAAIEAQAACgACAAAAAgAAEQAAAAQBgQAAEBAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Sphere" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYAAAawAAAAAAAAAQAgAAAACBAAAAAAAAgAAAIIAA=</HashCode>
+      <FileName>BoundingSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Texture::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Texture.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAACjAACAAAAwAAAAABEQBAAAAJAAAAABAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="modelData">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAQAAAAABEBAAAACBAAgIAAARgAAAEAAA=</HashCode>
+      <FileName>modelData.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mesh_data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="meshData">
+    <Position X="17.75" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="meshData::RENDER_MODE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>meshData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIBAQACAAACEAAADACBAIAIAACRgAAAECAA=</HashCode>
+      <FileName>meshData.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vbo_index" />
+      <Field Name="text_color" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="vboData" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQIAAAQAABBCAAAAAACBQEAAAAQAgAAAEAAA=</HashCode>
+      <FileName>vboData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textureData" Collapsed="true">
+    <Position X="19.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAQAAAAFUAQBCARAAAAGBAAAAAEABiAAA0QAA=</HashCode>
+      <FileName>textureData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

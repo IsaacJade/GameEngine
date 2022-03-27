@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::Image">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="Image" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="Azul::Image::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAAAAAgAAEAAAAQBAAAABAAEAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::ImageMan">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="~ImageMan" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="ImageMan" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAgAAAAAAAAAABhAAAAABIAEAAAAAgAgAIAAA=</HashCode>
+      <FileName>ImageMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManBase">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CIAAAIAFAAACgCgAAgAAIgQAUAAIAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>C:\code\keenan2022winter_gam576\instructor\Lectures\Lecture_01\w1(3) - ImageMan\dist\Manager\include\ManBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLink">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAgAAAAIAAQAAAAABgAIBBBAA=</HashCode>
+      <FileName>C:\code\keenan2022winter_gam576\instructor\Lectures\Lecture_01\w1(3) - ImageMan\dist\Manager\include\DLink.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+import "textureData.proto";
+import "glyphData.proto";
+option optimize_for = LITE_RUNTIME;
+
+message fontData_proto
+{
+	optional textureData_proto text_font  = 1;
+	optional uint32 numGlyph = 2;
+	repeated glyphData_proto glyphs = 3;
+
+}
+

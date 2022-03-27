@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::GameObjectMan">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIYACAAAAAAAAgAABAABBAAAAABAAEAAAAAgAAACQAE=</HashCode>
+      <FileName>GameObjectMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectBasic" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIRAUADQIgAAAAAggAAAAAAAAAAAAAAAAAIgAgAAAAA=</HashCode>
+      <FileName>GameObjectBasic.h</FileName>
+      <NewMemberFileName>GameObject.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject" Collapsed="true">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAAAAZABAgAAAAAAgAAABAhEAAAAAE=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poCurrSphere" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::Sphere" Collapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYAAAawAAAAAAAAAQAgAAAACBAAAAAAAAgAAAIIAA=</HashCode>
+      <FileName>BoundingSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectRigid" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>GameObjectRigid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnim" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAACgAAABAAA=</HashCode>
+      <FileName>GameObjectAnim.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnimSkin" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIRAEAAAIgAAAAAAAAEgAAAAIAEIAQQAAAIgEgAAAAA=</HashCode>
+      <FileName>GameObjectAnimSkin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnimSkeleton" Collapsed="true">
+    <Position X="7" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIRAEAAAIgAAAAAAAAEAAgAAIAEIgQAAAAIgEgAAAAA=</HashCode>
+      <FileName>GameObjectAnimSkeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObject">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABQAQAAAAAAgAkAAAARAAgAAABAAAAAAAAAhEAICAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSphere" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::Anim">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQCIBABABAAAQAEAAAAAAwAAAggAEAAAE=</HashCode>
+      <FileName>Anim.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poSkeleton" />
+      <Field Name="pClipHead" />
+      <Field Name="pClip" />
+      <Field Name="poBoneResult" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::Clip" Collapsed="true">
+    <Position X="13.75" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Azul::Clip::FrameBucket" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Clip.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAABAAAABAAAEAAAAAAICAECAgAgIAAAAAk=</HashCode>
+      <FileName>Clip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Skeleton">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Azul::Skeleton::Data" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Skeleton.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAgAAACAAAICAAAAAQAAAAAAAAAAAgAAAAAAE=</HashCode>
+      <FileName>Skeleton.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pFirstBone" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Model::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAgAAAAABAAAAABAAAAAAAAEQAAAAAhgQAAABAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Azul::Bone" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkAAA=</HashCode>
+      <FileName>Bone.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

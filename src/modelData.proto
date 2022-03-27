@@ -1,0 +1,20 @@
+syntax = "proto3";
+import "meshData.proto";
+import "BoundingSphere.proto";
+import "skelData.proto";
+import "animData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message modelData_proto
+{
+	optional bytes             pVersion    = 1;
+	optional bytes             pModelName   = 2;
+	optional meshData_proto    meshData = 3;
+	optional BoundingSphere_proto poRefSphere  = 4;
+	repeated skelData_proto		skelData = 5; 
+	optional uint32	           skelCount = 6;
+	repeated animData_proto		animData = 7;
+	optional uint32				animCount = 8;
+	repeated int32				hierarchyTable = 9;
+}

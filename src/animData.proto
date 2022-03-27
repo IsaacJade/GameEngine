@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message animData_proto
+{
+	
+	optional uint32			frameIndex     = 1;
+	optional float          time      = 2;
+	repeated float         bone   = 3;
+	optional uint32			boneCount = 4;
+
+}

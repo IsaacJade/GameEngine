@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message skelData_proto
+{
+	
+
+	optional uint32			nodeIndex     = 1;
+	optional bytes          nodeName      = 2;
+	optional uint32         parentIndex   = 3;
+	optional bytes          parentName    = 4;
+
+}

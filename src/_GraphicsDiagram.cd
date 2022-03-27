@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::GameObjectBasic">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIRAEAAAIgAAAAAggAAAAAAAAAAAAAAAAAIgAgAAAAA=</HashCode>
+      <FileName>GameObjectBasic.h</FileName>
+      <NewMemberFileName>GameObject.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAAAAYABAgAAAAAAAAAABAhEAAAAAE=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMesh" />
+      <Field Name="pShaderObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RenderMaterial">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~RenderMaterial" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="RenderMaterial" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgAAAAAAEAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RenderMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAAAIEAQAAAgACAAAAAgAAEQgAAAQBgQAAEBAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poRefSphere" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShaderObject" Collapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAAhAAAAAAAgAAAAABEQBCAAIBgAKAABAA=</HashCode>
+      <FileName>ShaderObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeMesh" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAgAAAAA=</HashCode>
+      <FileName>CubeMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_ColorByPosition">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <Members>
+      <Method Name="GraphicsObject_ColorByPosition" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicsObject_ColorByPosition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Sphere" Collapsed="true">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAagAAAAAAAAAQAgAAAAAAAAAAAAAAgAAAIIAA=</HashCode>
+      <FileName>BoundingSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

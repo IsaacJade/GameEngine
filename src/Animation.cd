@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::Anim">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQCIBABABAAAQAEAAAAAAwAAAggAEAAAE=</HashCode>
+      <FileName>Anim.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pClip" />
+      <Field Name="poSkeleton" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::AnimController">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Azul::AnimController::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AnimController.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAgACIAAAACAAAAIABCEAAAAAABkAAAAAAI=</HashCode>
+      <FileName>AnimController.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poAnim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::Clip">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Azul::Clip::FrameBucket" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Clip.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAABAAAABAAAEAAAAAAICAECAgAgIAAAAAk=</HashCode>
+      <FileName>Clip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Skeleton">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Azul::Skeleton::Data" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Skeleton.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAgAAACAAAICAAAAAQAAAAAAAAAAAoAAAAAAE=</HashCode>
+      <FileName>Skeleton.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pFirstBone" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::GameObjectAnim">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAACgAAABAAA=</HashCode>
+      <FileName>GameObjectAnim.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnimSkeleton">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRAEAAAIgAAAAAAAAEAAgAAIAEIgQAAAAIgEgAAAAA=</HashCode>
+      <FileName>GameObjectAnimSkeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Azul::Bone">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkAAA=</HashCode>
+      <FileName>Bone.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

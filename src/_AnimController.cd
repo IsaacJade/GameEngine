@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::AnimController">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAACAAAAAABAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>AnimController.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poTimerControl" />
+      <Field Name="poAnim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::Anim">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAABAJABAAAQAAAAAAAAgAAAggAEAAAE=</HashCode>
+      <FileName>Anim.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pFirstBone" />
+      <Field Name="pClip" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::TimerController">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="~TimerController" Hidden="true" />
+      <Method Name="GetCurrTime" Hidden="true" />
+      <Method Name="GetDeltaTime" Hidden="true" />
+      <Method Name="GetMaxTime" Hidden="true" />
+      <Method Name="GetMinTime" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetCurrTime" Hidden="true" />
+      <Method Name="SetDeltaTime" Hidden="true" />
+      <Method Name="SetMaxTime" Hidden="true" />
+      <Method Name="SetMinTime" Hidden="true" />
+      <Method Name="TimerController" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQGAIABAEQAAQAAQAAAQAAAAAAABAAQAAAkAAAAAAA=</HashCode>
+      <FileName>TimerController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnim">
+    <Position X="7" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~GameObjectAnim" Hidden="true" />
+      <Method Name="GameObjectAnim" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetIndex" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAACgAAAAAAA=</HashCode>
+      <FileName>GameObjectAnim.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObject" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAQAAAAAAgAkAAAARAAgAAABAAAAAAAAAhEAICAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnimSkin" Collapsed="true">
+    <Position X="6" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIRAEAAAIgAAAAAAAAEgAAAAIAEIAQQAAAIgEgABAAA=</HashCode>
+      <FileName>GameObjectAnimSkin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnimSkeleton" Collapsed="true">
+    <Position X="8" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIRAEAAAIgAAAAAAAAEAAgAAIAEIgQAAAAIgEgABAAA=</HashCode>
+      <FileName>GameObjectAnimSkeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Clip">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~Clip" Hidden="true" />
+      <Method Name="Clip" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privFindMaxTime" Hidden="true" />
+      <Method Name="privFindNumFrames" Hidden="true" />
+      <Method Name="privSetAnimationData" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Azul::Clip::FrameBucket">
+        <TypeIdentifier>
+          <NewMemberFileName>Clip.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAABAAAAAAAAEAAAAAAIAAECAgAgMAAAAAk=</HashCode>
+      <FileName>Clip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Azul::Bone">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkAAA=</HashCode>
+      <FileName>Bone.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

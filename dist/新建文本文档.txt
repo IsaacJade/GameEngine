@@ -1,0 +1,11 @@
+mkdir "$(SolutionDir)dist\PCSTree\lib"
+mkdir "$(SolutionDir)dist\PCSTree\include"
+copy "$(SolutionDir)Debug\PCSTree*.lib" "$(SolutionDir)\dist\PCSTree\lib\."
+copy "$(SolutionDir)Debug\PCSTree*.pdb" "$(SolutionDir)dist\PCSTree\lib\."
+copy "$(ProjectDir)include\*.h" "$(SolutionDir)dist\PCSTree\include\."
+
+mkdir "$(SolutionDir)dist\Math\lib"
+mkdir "$(SolutionDir)dist\Math\include"
+copy "$(SolutionDir)Debug\Math*.lib" "$(SolutionDir)\dist\Math\lib\."
+copy "$(SolutionDir)Debug\Math*.pdb" "$(SolutionDir)dist\Math\lib\."
+copy "$(ProjectDir)include\*.h" "$(SolutionDir)dist\Math\include\."

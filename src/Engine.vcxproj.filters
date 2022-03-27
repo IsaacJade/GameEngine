@@ -1,0 +1,1496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{0b776af2-bfcb-4635-9387-79853b59c5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{d070f632-a0e4-474c-b128-e5bb87e185cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{6850435d-5aa4-4265-a0df-8a437a8c611f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB7">
+      <UniqueIdentifier>{98ceaf53-6612-4a0d-a4b7-d1aff56b73f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB7\libs">
+      <UniqueIdentifier>{fb4ab8fc-2bf6-49b0-be95-9b025ed68ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB7\include">
+      <UniqueIdentifier>{0582b974-007b-41b6-9713-de111e669b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB7\include\GL">
+      <UniqueIdentifier>{4eb24570-7e69-4fa1-8c14-a8bf4f939c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\libs">
+      <UniqueIdentifier>{ae598e99-bbb5-4f0f-a363-c1ad2696e0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{6e37027e-6f03-429f-84e5-c3e9f66f6389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include\GLFW">
+      <UniqueIdentifier>{39dbaeed-fa92-48b2-b85f-04a98c4173cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{b2a67242-db00-4c8b-a320-f9bf72890fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{9d4fb732-d502-49aa-90e7-931454bc326d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\libs">
+      <UniqueIdentifier>{5e0e7486-7af1-4bdb-bbde-73b15998873c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{d85eb9b0-87c8-4c72-a741-317b98688f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{65c4e59e-9117-45ab-bb0c-a484cbe0e629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\libs">
+      <UniqueIdentifier>{ab5c8826-1b65-4a8c-91e6-5d5e8a213eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture">
+      <UniqueIdentifier>{0b0b9837-5216-4b01-ac75-333e9a16e2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StringMe">
+      <UniqueIdentifier>{efd53529-0882-496d-81f1-5d0c7289bca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{703ebc2f-2d34-4c4f-b367-6b290d3ca2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicsObject">
+      <UniqueIdentifier>{a777bbb6-db9e-4f6c-9cad-095aeda62a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{87e8618c-4e7d-4cda-a382-18d813d84ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\PCSTree">
+      <UniqueIdentifier>{6fbd0632-099e-492f-b161-069826e3174e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\PCSTree\include">
+      <UniqueIdentifier>{803cd3f9-9e4f-455f-94ff-19439c662824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\PCSTree\libs">
+      <UniqueIdentifier>{958be5c6-83c7-43d9-bb3e-d57a5129f9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{91d2a028-bbde-4724-a571-b3d459116d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{aa93c114-fa79-48b8-8fc6-f9ddf42a0ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{06f6b55c-bf04-40c3-a8f5-b0dfe4dd4b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Manager">
+      <UniqueIdentifier>{a00b3b88-2b22-40ee-99ec-b54c1edba28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Manager\libs">
+      <UniqueIdentifier>{e057aad2-eb69-4317-9da7-b129786e99e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Manager\include">
+      <UniqueIdentifier>{d9998986-f133-4719-ab47-69a886953a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{f0c804d5-398d-4e0e-bf98-9483f8768396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf">
+      <UniqueIdentifier>{354d5b20-8b81-49fd-ad0e-68ab35a69be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\libs">
+      <UniqueIdentifier>{c57f7c8e-f478-4a65-8d5f-ba20266df540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include">
+      <UniqueIdentifier>{02103e2f-c8d5-4ed0-b8e3-130005705cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google">
+      <UniqueIdentifier>{3e46b731-5e03-4c67-89da-296eb4fb7872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google\protobuf">
+      <UniqueIdentifier>{c9af9414-5cdf-45d6-876c-f6e139f7c29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google\protobuf\compiler">
+      <UniqueIdentifier>{a60f5c39-dfea-473b-99a9-532a05a983ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google\protobuf\io">
+      <UniqueIdentifier>{0dafabd0-6452-445b-b368-17b6472db7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google\protobuf\stubs">
+      <UniqueIdentifier>{869e9137-223d-4dcb-bfc6-082f7ec62118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google\protobuf\util">
+      <UniqueIdentifier>{4a92f4ec-5226-4926-b53b-9e1fdfb35081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google\protobuf\compiler\cpp">
+      <UniqueIdentifier>{d32060a3-7341-4d0a-900c-00db63563742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\ProtoBuf\include\google\protobuf\stubs\internal">
+      <UniqueIdentifier>{cb97ea53-63a8-4329-915a-b949802f2291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff">
+      <UniqueIdentifier>{47bcc710-aade-4041-a64d-deff20a1aaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\textureData">
+      <UniqueIdentifier>{64798e88-43ed-4b03-9064-704505d6fe39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\meshData">
+      <UniqueIdentifier>{33732ade-0218-4e92-b29f-5bd52447d638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\vboData">
+      <UniqueIdentifier>{a65dd076-597b-4439-a74a-df91fadb1783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BoundingSphere">
+      <UniqueIdentifier>{ed9e8975-aabb-4b0c-8cd6-70bd1e727178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\modelData">
+      <UniqueIdentifier>{257974c2-ffc8-4b73-b69d-7635f6090055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{5d882026-da1a-4de1-88cb-b9de01d3a747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Time">
+      <UniqueIdentifier>{dff2f433-0a77-4d08-a636-d8b4d9380120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Time\include">
+      <UniqueIdentifier>{6f33f640-fb40-42f4-ab69-1fe51042588c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Time\libs">
+      <UniqueIdentifier>{3f46c6ef-970f-4220-ab3d-3594098ee4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{6758c5a4-b2fa-4294-a2db-d09b38dae765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\skelData">
+      <UniqueIdentifier>{76478234-59bc-462a-bbee-5f266bba1508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\animData">
+      <UniqueIdentifier>{153baac1-32c2-4f8e-ae84-e178afd2f3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{60f0e615-4445-44a7-b570-ee97b6a381ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image">
+      <UniqueIdentifier>{e796e322-f2f0-4342-9f13-f6c5c05d2de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprite">
+      <UniqueIdentifier>{e7293119-83ef-4dec-b603-bed28f03373d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\fontData">
+      <UniqueIdentifier>{b33c0ee1-8ed6-4303-841f-7a50c9a9e4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuff\fontData\glyphData">
+      <UniqueIdentifier>{005a69cb-8364-4b22-9460-6371f899c2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Font">
+      <UniqueIdentifier>{be534828-feba-4c04-9388-2c44bfcea2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\ComputeShader">
+      <UniqueIdentifier>{c812e8a6-1f8c-49b4-8bd6-8bcec82d3182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\GraphicShader">
+      <UniqueIdentifier>{bda7f844-7bd7-4f5c-b4e8-aacaab48925c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="..\dist\GLFW\lib\GLFW_X86Debug.pdb">
+      <Filter>_Libs\GLFW\libs</Filter>
+    </None>
+    <None Include="..\dist\GLFW\lib\GLFW_X86Release.pdb">
+      <Filter>_Libs\GLFW\libs</Filter>
+    </None>
+    <None Include="..\dist\SB7\lib\SB7_X86Debug.pdb">
+      <Filter>_Libs\SB7\libs</Filter>
+    </None>
+    <None Include="..\dist\SB7\lib\SB7_X86Release.pdb">
+      <Filter>_Libs\SB7\libs</Filter>
+    </None>
+    <None Include="..\dist\Math\lib\Math_X86Debug.pdb">
+      <Filter>_Libs\Math\libs</Filter>
+    </None>
+    <None Include="..\dist\Math\lib\Math_X86Release.pdb">
+      <Filter>_Libs\Math\libs</Filter>
+    </None>
+    <None Include="..\dist\File\lib\File_X86Debug.pdb">
+      <Filter>_Libs\File\libs</Filter>
+    </None>
+    <None Include="..\dist\File\lib\File_X86Release.pdb">
+      <Filter>_Libs\File\libs</Filter>
+    </None>
+    <None Include="_TextureDiagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\dist\PCSTree\lib\PCSTree_X86Debug.pdb">
+      <Filter>_Libs\PCSTree\libs</Filter>
+    </None>
+    <None Include="..\dist\PCSTree\lib\PCSTree_X86Release.pdb">
+      <Filter>_Libs\PCSTree\libs</Filter>
+    </None>
+    <None Include="_GraphicsDiagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\dist\Manager\lib\Manager_X86Debug.pdb">
+      <Filter>_Libs\Manager\libs</Filter>
+    </None>
+    <None Include="..\dist\Manager\lib\Manager_X86Release.pdb">
+      <Filter>_Libs\Manager\libs</Filter>
+    </None>
+    <None Include="_Mesh_Diagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="textureData.proto">
+      <Filter>Source Files\ProtoBuff\textureData</Filter>
+    </None>
+    <None Include="vboData.proto">
+      <Filter>Source Files\ProtoBuff\vboData</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\generated_message_tctable_impl.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\map_test_util.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\message_unittest.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\port_def.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\port_undef.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\proto3_lite_unittest.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\test_util.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\compiler\cpp\cpp_unittest.inc">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </None>
+    <None Include="_GameObject_Diagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="meshData.proto">
+      <Filter>Source Files\ProtoBuff\meshData</Filter>
+    </None>
+    <None Include="modelData.proto">
+      <Filter>Source Files\ProtoBuff\modelData</Filter>
+    </None>
+    <None Include="BoundingSphere.proto">
+      <Filter>Source Files\BoundingSphere</Filter>
+    </None>
+    <None Include="..\dist\Time\lib\Time_X86Debug.pdb">
+      <Filter>_Libs\Time\libs</Filter>
+    </None>
+    <None Include="animData.proto">
+      <Filter>Source Files\ProtoBuff\animData</Filter>
+    </None>
+    <None Include="skelData.proto">
+      <Filter>Source Files\ProtoBuff\skelData</Filter>
+    </None>
+    <None Include="Animation.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="_Image_Diagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="glyphData.proto">
+      <Filter>Source Files\ProtoBuff\fontData\glyphData</Filter>
+    </None>
+    <None Include="fontData.proto">
+      <Filter>Source Files\ProtoBuff\fontData</Filter>
+    </None>
+    <None Include="computeMixer.cs.glsl">
+      <Filter>Source Files\Shaders\ComputeShader</Filter>
+    </None>
+    <None Include="computeTest.cs.glsl">
+      <Filter>Source Files\Shaders\ComputeShader</Filter>
+    </None>
+    <None Include="computeWorld.cs.glsl">
+      <Filter>Source Files\Shaders\ComputeShader</Filter>
+    </None>
+    <None Include="colorRender.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="colorRender.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="colorSingleRender.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="colorSingleRender.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="constColorRender.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="constColorRender.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="skinTextureRender.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="skinTextureRender.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="spriteRender.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="spriteRender.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="texturePointLightDiff.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="texturePointLightDiff.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="textureRender.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="textureRender.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="skinTextureLightRender.fs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+    <None Include="skinTextureLightRender.vs.glsl">
+      <Filter>Source Files\Shaders\GraphicShader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\GLFW\include\GLFW\glfw3.h">
+      <Filter>_Libs\GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\GLFW\include\GLFW\glfw3native.h">
+      <Filter>_Libs\GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\object.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\sb6mfile.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\sb7.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\sb7color.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\sb7ext.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\sb7ktx.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\sb7textoverlay.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\shader.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\vmath.h">
+      <Filter>_Libs\SB7\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\GL\gl3w.h">
+      <Filter>_Libs\SB7\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\GL\glcorearb.h">
+      <Filter>_Libs\SB7\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\GL\glext.h">
+      <Filter>_Libs\SB7\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\GL\glxext.h">
+      <Filter>_Libs\SB7\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB7\include\GL\wglext.h">
+      <Filter>_Libs\SB7\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Debug.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Trig.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMan.h">
+      <Filter>Source Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="StringThis.h">
+      <Filter>Source Files\StringMe</Filter>
+    </ClInclude>
+    <ClInclude Include="TGA.h">
+      <Filter>Source Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_ColorByPosition.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_FlatTexture.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Wireframe.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMaterial.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObject.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMan.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTest.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\PCSTree\include\PCSNode.h">
+      <Filter>_Libs\PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\PCSTree\include\PCSTree.h">
+      <Filter>_Libs\PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\PCSTree\include\PCSTreeForwardIterator.h">
+      <Filter>_Libs\PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\PCSTree\include\PCSTreeIterator.h">
+      <Filter>_Libs\PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\PCSTree\include\PCSTreeReverseIterator.h">
+      <Filter>_Libs\PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Null.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMan.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Manager\include\DLink.h">
+      <Filter>_Libs\Manager\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Manager\include\Iterator.h">
+      <Filter>_Libs\Manager\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Manager\include\ManBase.h">
+      <Filter>_Libs\Manager\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshNodeMan.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshNode.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMan.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_TextureLight.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_ConstColor.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFileHdr.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="textureData.h">
+      <Filter>Source Files\ProtoBuff\textureData</Filter>
+    </ClInclude>
+    <ClInclude Include="textureData.pb.h">
+      <Filter>Source Files\ProtoBuff\textureData</Filter>
+    </ClInclude>
+    <ClInclude Include="vboData.h">
+      <Filter>Source Files\ProtoBuff\vboData</Filter>
+    </ClInclude>
+    <ClInclude Include="vboData.pb.h">
+      <Filter>Source Files\ProtoBuff\vboData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\any.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\any.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\api.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena_impl.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena_test_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arenastring.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor_database.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\duration.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\dynamic_message.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\empty.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\extension_set.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\extension_set_inl.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\field_access_listener.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\field_mask.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_enum_reflection.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_enum_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_reflection.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_table_driven.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_table_driven_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_tctable_decl.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_tctable_impl.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\has_bits.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\implicit_weak_message.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_entry.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_entry_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_field_inl.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_field_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_lite_test_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_test_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_test_util_impl.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_type_handler.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\message.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\message_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\metadata.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\metadata_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\package_info.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\parse_context.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\port.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_internal.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_ops.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\repeated_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\service.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\source_context.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\struct.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\test_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\test_util_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\test_util2.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\text_format.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\timestamp.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\type.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\unknown_field_set.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\wire_format.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\wire_format_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\wrappers.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\annotation_test_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\code_generator.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\command_line_interface.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\importer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\mock_code_generator.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\package_info.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\parser.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\plugin.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\plugin.pb.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\scc.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\subprocess.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\zip_writer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_enum.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_enum_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_extension.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_file.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_generator.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_helpers.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_map_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_message.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_message_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_message_layout_helper.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_names.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_options.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_padding_optimizer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_parse_function_generator.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_primitive_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_service.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_string_field.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_unittest.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\coded_stream.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\gzip_stream.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\io_win32.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\package_info.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\printer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\strtod.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\tokenizer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\zero_copy_stream.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\bytestream.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\callback.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\casts.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\common.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\hash.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\int128.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\logging.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\macros.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\map_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\mathutil.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\mutex.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\once.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\platform_macros.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\port.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\status.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\status_macros.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\statusor.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\stl_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\stringpiece.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\stringprintf.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\strutil.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\substitute.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\template_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\time.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\delimited_message_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\field_comparator.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\field_mask_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\json_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\message_differencer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\package_info.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\time_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\type_resolver.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\type_resolver_util.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\constants.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\datapiece.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\default_value_objectwriter.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\error_listener.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\expecting_objectwriter.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\field_mask_utility.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\json_escaping.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\json_objectwriter.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\json_stream_parser.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\location_tracker.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\mock_error_listener.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\object_location_tracker.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\object_source.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\object_writer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\proto_writer.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\protostream_objectsource.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\protostream_objectwriter.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\structured_objectwriter.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\type_info.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\type_info_test_helper.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\internal\utility.h">
+      <Filter>_Libs\ProtoBuf\include\google\protobuf\stubs\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoBuffMesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="textureDataOpenGL.h">
+      <Filter>Source Files\ProtoBuff\textureData</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_WireframeConstantColor.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMan.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="meshData.h">
+      <Filter>Source Files\ProtoBuff\meshData</Filter>
+    </ClInclude>
+    <ClInclude Include="meshData.pb.h">
+      <Filter>Source Files\ProtoBuff\meshData</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Source Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="modelData.h">
+      <Filter>Source Files\ProtoBuff\modelData</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Source Files\BoundingSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.pb.h">
+      <Filter>Source Files\BoundingSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="modelData.pb.h">
+      <Filter>Source Files\ProtoBuff\modelData</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNode.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNodeMan.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Time\include\AnimTime.h">
+      <Filter>_Libs\Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Time\include\AnimTimer.h">
+      <Filter>_Libs\Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMan.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectAnim.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectAnimSkeleton.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectAnimSkin.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectBasic.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerController.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Mixer.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectRigid.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimController.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Clip.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animData.h">
+      <Filter>Source Files\ProtoBuff\animData</Filter>
+    </ClInclude>
+    <ClInclude Include="skelData.h">
+      <Filter>Source Files\ProtoBuff\skelData</Filter>
+    </ClInclude>
+    <ClInclude Include="animData.pb.h">
+      <Filter>Source Files\ProtoBuff\animData</Filter>
+    </ClInclude>
+    <ClInclude Include="skelData.pb.h">
+      <Filter>Source Files\ProtoBuff\skelData</Filter>
+    </ClInclude>
+    <ClInclude Include="my_string.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectNull.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Sprite.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Source Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMan.h">
+      <Filter>Source Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshNull.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Source Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteMesh.h">
+      <Filter>Source Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteVBO.h">
+      <Filter>Source Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="glyphData.h">
+      <Filter>Source Files\ProtoBuff\fontData\glyphData</Filter>
+    </ClInclude>
+    <ClInclude Include="fontData.h">
+      <Filter>Source Files\ProtoBuff\fontData</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyph.h">
+      <Filter>Source Files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphMan.h">
+      <Filter>Source Files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Font.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFont.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="glyphData.pb.h">
+      <Filter>Source Files\ProtoBuff\fontData\glyphData</Filter>
+    </ClInclude>
+    <ClInclude Include="fontData.pb.h">
+      <Filter>Source Files\ProtoBuff\fontData</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_SkinTexture.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphereGameObject.h">
+      <Filter>Source Files\BoundingSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBO.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_SkinTextureLight.h">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_X86Debug.lib">
+      <Filter>_Libs\GLFW\libs</Filter>
+    </Library>
+    <Library Include="..\dist\GLFW\lib\GLFW_X86Release.lib">
+      <Filter>_Libs\GLFW\libs</Filter>
+    </Library>
+    <Library Include="..\dist\SB7\lib\SB7_X86Debug.lib">
+      <Filter>_Libs\SB7\libs</Filter>
+    </Library>
+    <Library Include="..\dist\SB7\lib\SB7_X86Release.lib">
+      <Filter>_Libs\SB7\libs</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\Math_X86Debug.lib">
+      <Filter>_Libs\Math\libs</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\Math_X86Release.lib">
+      <Filter>_Libs\Math\libs</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_X86Debug.lib">
+      <Filter>_Libs\File\libs</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_X86Release.lib">
+      <Filter>_Libs\File\libs</Filter>
+    </Library>
+    <Library Include="..\dist\PCSTree\lib\PCSTree_X86Debug.lib">
+      <Filter>_Libs\PCSTree\libs</Filter>
+    </Library>
+    <Library Include="..\dist\PCSTree\lib\PCSTree_X86Release.lib">
+      <Filter>_Libs\PCSTree\libs</Filter>
+    </Library>
+    <Library Include="..\dist\Manager\lib\Manager_X86Debug.lib">
+      <Filter>_Libs\Manager\libs</Filter>
+    </Library>
+    <Library Include="..\dist\Manager\lib\Manager_X86Release.lib">
+      <Filter>_Libs\Manager\libs</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\libprotobuf-lited.lib">
+      <Filter>_Libs\ProtoBuf\libs</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\libprotobuf-lite.lib">
+      <Filter>_Libs\ProtoBuf\libs</Filter>
+    </Library>
+    <Library Include="..\dist\Time\lib\Time_X86Debug.lib">
+      <Filter>_Libs\Time\libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMan.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="StringThis.cpp">
+      <Filter>Source Files\StringMe</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_ColorByPosition.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_FlatTexture.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Wireframe.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObject.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMan.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTest.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Null.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMan.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshNodeMan.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshNode.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMan.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_TextureLight.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_ConstColor.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFileHdr.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="textureData.cpp">
+      <Filter>Source Files\ProtoBuff\textureData</Filter>
+    </ClCompile>
+    <ClCompile Include="textureData.pb.cc">
+      <Filter>Source Files\ProtoBuff\textureData</Filter>
+    </ClCompile>
+    <ClCompile Include="vboData.cpp">
+      <Filter>Source Files\ProtoBuff\vboData</Filter>
+    </ClCompile>
+    <ClCompile Include="vboData.pb.cc">
+      <Filter>Source Files\ProtoBuff\vboData</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoBuffMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="textureDataOpenGL.cpp">
+      <Filter>Source Files\ProtoBuff\textureData</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_WireframeConstantColor.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMan.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNode.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="meshData.pb.cc">
+      <Filter>Source Files\ProtoBuff\meshData</Filter>
+    </ClCompile>
+    <ClCompile Include="meshData.cpp">
+      <Filter>Source Files\ProtoBuff\meshData</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="modelData.cpp">
+      <Filter>Source Files\ProtoBuff\modelData</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Source Files\BoundingSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.pb.cc">
+      <Filter>Source Files\BoundingSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="modelData.pb.cc">
+      <Filter>Source Files\ProtoBuff\modelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNodeMan.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMan.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectAnim.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectAnimSkeleton.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectAnimSkin.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectBasic.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerController.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Mixer.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectRigid.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimController.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Clip.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animData.cpp">
+      <Filter>Source Files\ProtoBuff\animData</Filter>
+    </ClCompile>
+    <ClCompile Include="skelData.cpp">
+      <Filter>Source Files\ProtoBuff\skelData</Filter>
+    </ClCompile>
+    <ClCompile Include="animData.pb.cc">
+      <Filter>Source Files\ProtoBuff\animData</Filter>
+    </ClCompile>
+    <ClCompile Include="skelData.pb.cc">
+      <Filter>Source Files\ProtoBuff\skelData</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectNull.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Sprite.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMan.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshNull.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteMesh.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="glyphData.cpp">
+      <Filter>Source Files\ProtoBuff\fontData\glyphData</Filter>
+    </ClCompile>
+    <ClCompile Include="fontData.cpp">
+      <Filter>Source Files\ProtoBuff\fontData</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyph.cpp">
+      <Filter>Source Files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphMan.cpp">
+      <Filter>Source Files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Font.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFont.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="glyphData.pb.cc">
+      <Filter>Source Files\ProtoBuff\fontData\glyphData</Filter>
+    </ClCompile>
+    <ClCompile Include="fontData.pb.cc">
+      <Filter>Source Files\ProtoBuff\fontData</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_SkintTexture.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphereGameObject.cpp">
+      <Filter>Source Files\BoundingSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBO.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_SkintTextureLight.cpp">
+      <Filter>Source Files\GraphicsObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
